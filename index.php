@@ -1,7 +1,7 @@
 <?php  
 
 $conn=mysqli_connect('localhost','root','','student_info') or die('connection failed');
-$sql="SELECT * FROM student";
+$sql="SELECT * FROM student LIMIT 25";
 $result=mysqli_query($conn,$sql);
 
     
